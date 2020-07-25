@@ -25,7 +25,6 @@ export default {
       return new Promise((resolve) => {
         nextTick(() => {
           dom = context.$refs[refName]
-          console.log(dom);
           // 获取大屏的真实尺寸
           if (ctx.options && ctx.options.width && ctx.options.height) {
             width.value = ctx.options.width
@@ -98,7 +97,6 @@ export default {
   left: 0;
   overflow: hidden;
   transform-origin: left top;
-  background: pink;
   z-index: 999;
 }
 </style>
