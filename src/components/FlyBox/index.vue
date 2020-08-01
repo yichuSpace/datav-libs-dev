@@ -96,7 +96,7 @@ export default {
     height: 100%;
   }
 
-  &-content {
+  .fly-box-content {
     width: 100%;
     height: 100%;
     padding: 5px;
