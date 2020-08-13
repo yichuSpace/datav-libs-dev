@@ -56,7 +56,7 @@
   }
 </script>
 <style lang="scss" scoped>
-.loading-content {
+.loading {
   display: flex;
   flex-direction: column;
   align-items: center;

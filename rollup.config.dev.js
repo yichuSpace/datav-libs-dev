@@ -44,5 +44,5 @@ module.exports = {
       plugins: []
     })
   ],
-  external: ['vue']
+  external: ['vue', 'echarts']
 }
